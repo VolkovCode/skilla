@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "SFProDisplayMedium";
+    src: local("SFProDisplayMedium"),
+    url("./fonts/SF-Pro-Display-Regular.otf") format("truetype");
+    font-weight:normal;
+}
+@font-face {
+    font-family: "SFProDisplayRegular";
+    src: local("SFProDisplayRegular"),
+    url("./fonts/SF-Pro-Display-Regular.otf") format("truetype");
+    font-weight:normal;
+}
+*, *:after, *:before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}

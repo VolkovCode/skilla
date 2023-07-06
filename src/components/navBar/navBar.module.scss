@@ -1,0 +1,165 @@
+.nav{
+    display:grid;
+    grid-template-columns: 296px 594px 790px;
+    align-items: center;
+    position: relative;
+    width: 1680px;
+    height: 64px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px #E9EDF3;
+}
+.date{
+    margin-left: 120px;
+    font-family: 'SF Pro Display', serif;
+    font-size: 15px;
+
+    align-items: flex-end;
+    color: #899CB1;
+}
+.progressBars{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+
+
+    .newCalls{
+
+        align-self: center;
+        justify-self: start;
+        color: #122945;
+        width: 162px;
+        font-family: 'SFProDisplayRegular', serif;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height, or 21px */
+        span{
+            color:#00A775;
+        }
+        .newCallsProgress{
+            width: 156px;
+            background: none;
+            margin-bottom: 3px;
+            border-radius: 5px;
+            height: 6px;
+
+        }
+        .newCallsProgress::-webkit-progress-value {
+            background: #28A879;
+            border-bottom-left-radius: 5px;
+            border-top-left-radius: 5px;
+
+        }
+        .newCallsProgress::-webkit-progress-bar {
+            background: #DEE6F5;
+            border-radius: 12px;
+
+        }
+    }
+
+
+    .quality{
+        align-self: center;
+        justify-self: center;
+        color: #122945;
+        width: 164px;
+
+        font-family: 'SFProDisplayRegular', serif;
+
+        font-size: 14px;
+        line-height: 21px;
+        span{
+            color:#FFB800;
+        }
+        .qualityProgress{
+            margin-bottom: 3px;
+            border-radius: 5px;
+            height: 6px;
+            width: 156px;
+        }
+        .qualityProgress::-webkit-progress-value {
+            background: #FFD500;
+            border-bottom-left-radius: 5px;
+            border-top-left-radius: 5px;
+
+        }
+        .qualityProgress::-webkit-progress-bar {
+            background: #DEE6F5;
+            border-radius: 12px;
+
+        }
+
+    }
+
+
+
+    .conversion{
+        align-self: center;
+        justify-self: end;
+        color: #122945;
+        width: 156px;
+        line-height: 21px;
+        font-family: 'SFProDisplayRegular', serif;
+        font-size: 14px;
+        span {
+            color: #EA1A4F;
+        }
+        .conversionProgress{
+            margin-bottom: 3px;
+            border-radius: 5px;
+            height: 6px;
+            width: 156px;
+        }
+        .conversionProgress::-webkit-progress-value {
+            background: #EA1A4F;
+            border-bottom-left-radius: 5px;
+            border-top-left-radius: 5px;
+
+        }
+        .conversionProgress::-webkit-progress-bar {
+            background: #DEE6F5;
+            border-radius: 12px;
+
+        }
+
+    }
+}
+
+.navGroup{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    .SearchSVG{
+        margin-right: 64px;
+        color: #ADBFDF;
+        width: 16px;
+        height: 16px;
+    }
+    .IP{
+
+        display: flex;
+        justify-self: end;
+        font-family: 'SFProDisplayRegular', serif;
+        font-size: 15px;
+        color: #899CB1;
+
+    }
+    .face{
+        display: flex;
+        margin-left: 47px;
+    }
+    .sortIconSVG1{
+        margin-right: 0;
+        margin-left: 10px;
+    }
+    .sortIconSVG2{
+        margin-right: 120px;
+        margin-left: 10px;
+        width: 12px;
+    }
+}
+
+
+
+

@@ -1,0 +1,141 @@
+.sorts{
+  display:grid;
+  grid-template-rows: 75px 60px;
+  width: 1440px;
+  margin-left: 120px;
+  font-size: 25px;
+}
+.top{
+  display: flex;
+  justify-self: end;
+  align-items: center;
+  .balance{
+    margin-right: 48px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 12px;
+    color: #899CB1;
+    width: 145px;
+    height: 40px;
+    font-family: SFProDisplayRegular;
+    font-size: 14px;
+
+    background: #FFFFFF;
+    border-radius: 48px;
+    span{
+
+      align-self: center;
+      color: #122945;
+    }
+    .plusSVG{
+      position: absolute;
+      top:8px;
+      right:12px;
+
+      width: 24px;
+      height: 24px;
+
+    }
+  }
+  .datePicker{
+    display: flex;
+    align-items: center;
+
+    font-family: SFProDisplayRegular;
+    color:#005FF8;
+    font-size: 14px;
+    justify-content: end;
+
+    .calendarSVG{
+      margin-right: 8px;
+      margin-left: 22px;
+      width: 16px;
+      height: 18px;
+    }
+    .leftSVG{
+      height: 10px;
+      margin-left: 22px;
+    }
+    .rightSVG{
+      height: 10px;
+      margin-left: 22px;
+    }
+
+  }
+
+}
+
+.search{
+  display: flex;
+  font-family: SFProDisplayRegular;
+  font-size:14px;
+  color:#5E7793;
+  .searchSVG{
+    padding-right: 12px;
+  }
+
+}
+.sortGroup{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .types{
+    display: flex;
+    margin-left: 36px;
+    .invisible{
+      ul{
+        display: none;
+      }
+
+    }
+  }
+  .sortTypesModal{
+    position: relative;
+    cursor: pointer;
+    align-items: center;
+    font-family: SFProDisplayRegular;
+    font-size:14px;
+    display: flex;
+    color:#5E7793;
+    img{
+      align-self: center;
+      margin-left: 8px;
+      margin-top: 4px;
+      width: 10px;
+      height: 6px;
+    }
+    .dropdown{
+      position: absolute;
+      right: 0px;
+      top:24px;
+      ul{
+
+        width: 204px;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        background-color: #FFFFFF;
+        cursor: pointer;
+        box-shadow: 0px 0px 26px 0px #E9EDF3CC;
+        border: 1px solid #EAF0FA;
+        border-radius: 3px;
+      }
+      li{
+        padding-top: 10px;
+        font-family: SFProDisplayRegular;
+        height: 40px;
+        color: #899CB1;
+        padding-left: 21px;
+        white-space: nowrap;
+      }
+      li:hover{
+        background-color: #ADBFDF;
+        color:#122945;
+        font-family: SFProDisplayRegular;
+      }
+    }
+  }
+
+}
+

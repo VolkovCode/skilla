@@ -1,0 +1,65 @@
+.sideBar{
+    background: #091336;
+    display: grid;
+    grid-auto-rows: 80px  52px 52px 52px 52px 52px 52px 52px 52px 52px 52px  363px 1fr;
+}
+.sideButtons{
+
+}
+
+.sideButton1{
+    display: grid;
+    grid-template-columns: 1fr 58px;
+    margin-top: 64px;
+    margin-left: 20px;
+    align-self: center;
+    width: 200px;
+    height: 52px;
+    font-family:'SFProDisplayMedium';
+    color: #FFFFFF;
+    font-size: 16px;
+    background: #005FF8;
+    border-radius: 4px;
+    span{
+        align-self: center;
+        justify-self: end;
+    }
+
+    .plusSVG{
+        width: 24px;
+        height: 24px;
+        color: rgba(216, 228, 251, 0.56);
+        justify-self: center;
+        align-self: center;
+    }
+}
+
+.sideButton2{
+    display: grid;
+    grid-template-columns: 1fr 81px;
+    margin-top: 32px;
+    margin-left: 20px;
+    align-self: center;
+    width: 200px;
+    height: 52px;
+    font-family:'SFProDisplayMedium';
+    color: #FFFFFF;
+    font-size: 16px;
+    background: #005FF8;
+    border-radius: 4px;
+    span{
+        align-self: center;
+        justify-self: start;
+        padding-left: 65px;
+    }
+    .exclamationSVG{
+        width: 25px;
+        height: 25px;
+        margin-left: 5px;
+        color: rgba(216, 228, 251, 0.56);
+        justify-self: center;
+        align-self: center;
+    }
+}
+
+

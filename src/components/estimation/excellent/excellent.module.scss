@@ -1,0 +1,26 @@
+.excellent{
+  display: flex;
+  align-items: center;
+
+  .estimation {
+    width: 70px;
+    height: 28px;
+    margin-left: 8px;
+    border: 1px solid #28A879;
+    border-radius: 4px;
+    font-family: SFProDisplayRegular;
+    color: #28A879;
+    background-color: #DBF8EF;
+    text-align: center;
+    padding: 5px 8px 5px 8px;
+    font-size:14px;
+  }
+
+  .point {
+    margin-right: 2px;
+    width: 8px;
+    height: 8px;
+    background-color: #28A879;
+    border-radius: 50px;
+  }
+}

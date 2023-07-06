@@ -1,0 +1,36 @@
+.callsWindow {
+  width: 1440px;
+  height: 1985px;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 5px #E9EDF3;
+  margin-left: 120px;
+  margin-top: 75px;
+  overflow:auto;
+
+}
+.callsWindow::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+
+  width: 1360px;
+  height: 1985px;
+  margin-left: 40px;
+
+  .categories{
+    display: grid;
+    grid-template-columns: 53px 89px 128px 326px 214px 461px 89px;
+    grid-template-rows: 61px;
+    justify-content: start;
+
+    .category{
+      align-self: center;
+      font-family: SFProDisplayRegular, serif;
+      color:#899CB1;
+      font-size: 14px;
+    }
+  }
+
+}

@@ -1,0 +1,25 @@
+.bad {
+  display: flex;
+  align-items: center;
+
+  .estimation {
+    width: 55px;
+    height: 28px;
+    border: 1px solid #EA1A4F;
+    border-radius: 4px;
+    font-family: SFProDisplayRegular;
+    color: #EA1A4F;
+    background-color: #FEE9EF;
+    text-align: center;
+    padding: 5px 8px 5px 8px;
+    font-size:14px;
+  }
+
+  .point {
+    width: 8px;
+    height: 8px;
+    background-color: #EA1A4F;
+    border-radius: 50px;
+    margin-right: 28px;
+  }
+}

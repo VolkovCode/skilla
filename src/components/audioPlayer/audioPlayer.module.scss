@@ -1,0 +1,63 @@
+.record{
+
+  width: 352px;
+  height: 48px;
+  border-radius: 48px;
+  background-color: #EAF0FA;
+  display: flex;
+  align-items: center;
+  .time{
+    font-family: SFProDisplayRegular;
+    color:#122945;
+    padding-left: 15px;
+  }
+  .resume{
+    width: 24px;
+    height: 24px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+  }
+  progress{
+    margin-left: 15px;
+    width: 164px;
+
+  }
+  .download{
+    margin-left: 15px;
+    margin-right: 25px;
+    width: 13px;
+    height: 16px;
+  }
+  .close{
+    img{
+      width: 14px;
+      height: 14px;
+    }
+  }
+  //audio::-webkit-media-controls-current-time-display{
+  //  display: none;
+  //}
+  //audio::-webkit-media-controls-time-remaining-display{
+  //  display: none;
+  //}
+  //audio::-webkit-media-controls-timeline{
+  //  color: #ADBFDF;
+  //}
+  //audio::-webkit-media-controls-play-button{
+  //  display: none;
+  //}
+  //audio::-webkit-media-controls-seek-back-button{
+  //  display: none;
+  //}
+  //audio::-webkit-media-controls-volume-slider-container{
+  //  display: none;
+  //}
+
+
+}

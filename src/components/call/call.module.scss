@@ -1,0 +1,64 @@
+.call{
+    display: grid;
+    grid-template-columns: 53px 89px 128px 326px 214px 461px 89px;
+    justify-content: start;
+    width: 1360px;
+    height: 65px;
+    font-size: 14px;
+.type{
+    width: 12px;
+    height: 12px;
+    display: flex;
+    align-self: center;
+    justify-self: start;
+
+}
+    .estimation{
+        padding-top: 20px;
+    }
+    .time{
+        display: flex;
+        align-self: center;
+        justify-self: start;
+        color:#122945;
+        font-size: 15px;
+        font-family: SFProDisplayRegular;
+    }
+    .avatarBlock{
+        display: flex;
+        align-self: center;
+        justify-self: start;
+        width: 32px;
+        img{
+            align-self: center;
+            justify-self: start;
+            width: 32px;
+        }
+    }
+    .phoneNumber{
+        align-self: center;
+        justify-self: start;
+        color:#122945;
+        font-size: 15px;
+        font-family: SFProDisplayRegular;
+    }
+    .from{
+        align-self: center;
+        justify-self: start;
+        color:#5E7793;
+        font-size: 15px;
+        font-family: SFProDisplayRegular;
+
+    }
+    .progress{
+        align-self: center;
+        justify-self: end;
+        color:#122945;
+        font-size: 15px;
+        font-family: SFProDisplayRegular;
+        cursor: pointer;
+    }
+
+
+
+}

@@ -1,0 +1,24 @@
+.sideSection{
+    display: grid;
+    width: 52px;
+    position: relative;
+    grid-template-columns: 48px 1fr;
+
+}
+.resultSVG{
+    width: 22px;
+    align-self: center;
+    justify-self: center;
+    color:rgba(255, 255, 255, 0.6);
+}
+.text{
+    font-family: SFProDisplayMedium;
+    font-size: 16px;
+    align-self: center;
+    justify-self: start;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+.sideSection :active{
+    background: rgba(216, 228, 251, 0.32);
+}
